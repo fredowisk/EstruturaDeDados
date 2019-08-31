@@ -1,0 +1,33 @@
+1. Indique verdadeiro ou falso
+
+a) (V) O operador & permite-nos obter o endereço de uma
+variável. Permite também obter o endereço de um ponteiro.
+b) (F) Se x é um inteiro e ptr um ponteiro para inteiros e ambos
+contêm no seu interior o número 100, então x+1 e ptr+1
+apresentarão o número 101.
+c) (F) O operador * nos permite obter o endereço de uma
+variável.
+d) (V) Os ponteiros são variáveis que apontam para endereços
+na memória.
+
+2. Qual o resultado?
+
+cout << a << b << *ptr;
+R: NULL.
+
+Se fizermos ptr = &b, qual o resultado?
+cout << a << b << *ptr;
+R: O valor que está dentro da variavel B será exibido ao cout chamar o ponteiro *ptr.
+
+4. Se agora tivermos *ptr = 20, qual o resultado?
+R: B = 20.
+
+5. Qual caractere que se coloca na declaração de uma variável
+para indicar que ela é um ponteiro? Onde se coloca este
+caractere?
+R: Utiliza-se o "*" no inicio do nome da variável.
+
+6. O que contém uma variável do tipo ponteiro?
+R: O endereço de outra variável.
+
+
